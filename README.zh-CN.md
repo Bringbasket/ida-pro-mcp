@@ -8,6 +8,10 @@ https://github.com/user-attachments/assets/6ebeaa92-a9db-43fa-b756-eececce2aca0
 
 视频中使用的二进制文件和提示词可在 [mcp-reversing-dataset](https://github.com/mrexodia/mcp-reversing-dataset) 仓库获取。
 
+## 文档
+
+- **[工具参考手册](./TOOLS.zh-CN.md)**：所有 59 个 MCP 工具的详细文档，包含使用示例和调用原理
+
 ## 环境要求
 
 - [Python](https://www.python.org/downloads/) (**3.11 或更高版本**)

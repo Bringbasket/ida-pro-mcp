@@ -8,6 +8,10 @@ https://github.com/user-attachments/assets/6ebeaa92-a9db-43fa-b756-eececce2aca0
 
 The binaries and prompt for the video are available in the [mcp-reversing-dataset](https://github.com/mrexodia/mcp-reversing-dataset) repository.
 
+## Documentation
+
+- **[Tools Reference](./TOOLS.md)**: Detailed documentation of all 59 MCP tools with usage examples and invocation principles
+
 ## Prerequisites
 
 - [Python](https://www.python.org/downloads/) (**3.11 or higher**)
