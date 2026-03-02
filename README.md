@@ -1,5 +1,7 @@
 # IDA Pro MCP
 
+English | [简体中文](./README.zh-CN.md)
+
 Simple [MCP Server](https://modelcontextprotocol.io/introduction) to allow vibe reversing in IDA Pro.
 
 https://github.com/user-attachments/assets/6ebeaa92-a9db-43fa-b756-eececce2aca0
@@ -209,6 +211,11 @@ _Note_: The `idalib` feature was contributed by [Willi Ballenthin](https://githu
 
 - `read_struct(queries)`: Read structure field values at specific address(es).
 - `search_structs(filter)`: Search structures by name pattern.
+
+## Deobfuscation Operations
+
+- `unflatten_ollvm(addr, remove_dead_code=True)`: Remove OLLVM control flow flattening from a function. Analyzes dispatcher blocks and reconstructs original control flow.
+- `analyze_ollvm_dispatcher(addr)`: Analyze OLLVM obfuscation structure, returning dispatcher block info, storage variables, and state information.
 
 ## Debugger Operations (Extension)
 

@@ -8,7 +8,7 @@ Architecture:
 - mcp.py: MCP protocol server (HTTP/SSE)
 - sync.py: IDA synchronization decorator (@idasync)
 - utils.py: Shared helpers and TypedDict definitions
-- api_*.py: Modular API implementations (71 tools + 24 resources)
+- api_*.py: Modular API implementations (59 tools + 24 resources)
 """
 
 # Import infrastructure modules
@@ -25,6 +25,7 @@ from . import api_modify
 from . import api_stack
 from . import api_debug
 from . import api_python
+from . import api_deobfuscation
 from . import api_resources
 
 # Re-export key components for external use
@@ -47,6 +48,7 @@ __all__ = [
     "api_stack",
     "api_debug",
     "api_python",
+    "api_deobfuscation",
     "api_resources",
     # Re-exported components
     "idasync",
