@@ -10,7 +10,7 @@ The binaries and prompt for the video are available in the [mcp-reversing-datase
 
 ## Documentation
 
-- **[Tools Reference](./TOOLS.md)**: Detailed documentation of all 59 MCP tools with usage examples and invocation principles
+- **[Tools Reference](./TOOLS.md)**: Fork-maintained reference for the core and custom MCP tools in this repository. After syncing with upstream, runtime tool metadata is the source of truth for the full current tool set.
 
 ## Prerequisites
 

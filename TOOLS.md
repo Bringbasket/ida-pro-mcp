@@ -2,20 +2,20 @@
 
 English | [简体中文](./TOOLS.zh-CN.md)
 
-This document provides detailed information about all tools available in the IDA Pro MCP server, including their purpose, parameters, and invocation principles.
+This fork-maintained document provides detailed information about the original core tools and custom additions in this repository, including their purpose, parameters, and invocation principles. Upstream has continued to evolve after this document was written, so runtime tool metadata is the source of truth for the complete current tool set.
 
 ## Table of Contents
 
 - [MCP Tool Invocation Principles](#mcp-tool-invocation-principles)
-- [Core Functions (6 tools)](#core-functions)
-- [Analysis Operations (10 tools)](#analysis-operations)
-- [Modification Operations (6 tools)](#modification-operations)
-- [Memory Operations (6 tools)](#memory-operations)
-- [Type Operations (5 tools)](#type-operations)
-- [Stack Frame Operations (3 tools)](#stack-frame-operations)
-- [Deobfuscation Operations (2 tools)](#deobfuscation-operations)
-- [Python Execution (1 tool)](#python-execution)
-- [Debugger Operations (20 tools)](#debugger-operations)
+- [Core Functions](#core-functions)
+- [Analysis Operations](#analysis-operations)
+- [Modification Operations](#modification-operations)
+- [Memory Operations](#memory-operations)
+- [Type Operations](#type-operations)
+- [Stack Frame Operations](#stack-frame-operations)
+- [Deobfuscation Operations](#deobfuscation-operations)
+- [Python Execution](#python-execution)
+- [Debugger Operations](#debugger-operations)
 
 ---
 
@@ -1014,7 +1014,7 @@ Tool is automatically available, no additional config needed!
 
 ## Summary
 
-IDA Pro MCP provides **59 tools** covering:
+This fork reference covers the core capabilities and custom additions around:
 - ✅ Static analysis (decompilation, disassembly, xrefs)
 - ✅ Dynamic debugging (breakpoints, registers, memory)
 - ✅ Modification operations (patching, renaming, types)

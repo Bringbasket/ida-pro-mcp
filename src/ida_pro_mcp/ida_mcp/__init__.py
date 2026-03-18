@@ -8,7 +8,7 @@ Architecture:
 - mcp.py: MCP protocol server (HTTP/SSE)
 - sync.py: IDA synchronization decorator (@idasync)
 - utils.py: Shared helpers and TypedDict definitions
-- api_*.py: Modular API implementations (59 tools + 24 resources)
+- api_*.py: Modular API implementations and resources
 """
 
 # Ignore SIGPIPE to prevent IDA from being killed when an MCP client

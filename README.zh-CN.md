@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/6ebeaa92-a9db-43fa-b756-eececce2aca0
 
 ## 文档
 
-- **[工具参考手册](./TOOLS.zh-CN.md)**：所有 59 个 MCP 工具的详细文档，包含使用示例和调用原理
+- **[工具参考手册](./TOOLS.zh-CN.md)**：当前 fork 维护的核心工具和自定义工具参考。同步上游后，如需查看完整最新工具集合，请以运行时导出的工具元数据为准。
 
 ## 环境要求
 
