@@ -11,6 +11,14 @@ Architecture:
 - api_*.py: Modular API implementations (59 tools + 24 resources)
 """
 
+# Ignore SIGPIPE to prevent IDA from being killed when an MCP client
+# disconnects while the HTTP server is writing a response. IDA's embedded
+# Python may not preserve CPython's default SIG_IGN for SIGPIPE.
+import signal
+
+if hasattr(signal, "SIGPIPE"):
+    signal.signal(signal.SIGPIPE, signal.SIG_IGN)
+
 # Import infrastructure modules
 from . import rpc
 from . import sync
@@ -27,6 +35,8 @@ from . import api_debug
 from . import api_python
 from . import api_deobfuscation
 from . import api_resources
+from . import api_survey
+from . import api_composite
 
 # Re-export key components for external use
 from .sync import idasync, IDAError, IDASyncError, CancelledError
@@ -50,6 +60,8 @@ __all__ = [
     "api_python",
     "api_deobfuscation",
     "api_resources",
+    "api_survey",
+    "api_composite",
     # Re-exported components
     "idasync",
     "IDAError",
