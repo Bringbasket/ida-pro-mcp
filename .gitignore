@@ -35,3 +35,7 @@ scalene-profile.json
 
 # MCP config
 .mcp.json
+
+# IDA ad-hoc exports
+*.pat
+*.json.c
